@@ -1,0 +1,39 @@
+$myColor: red;
+
+h1 {
+  color: $myColor;
+}
+
+body {
+  background-color: #2D383C;
+}
+
+.header > ul {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header > ul > li {
+  color: white;
+  list-style: none;
+  float: left;
+  margin-right: 40px;
+  font-size: 22px;
+  line-height: 12px;
+  
+}
+
+.background {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.header > ul > li > img {
+  width: 44px;
+  height: 42px;
+}
