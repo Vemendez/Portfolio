@@ -1,0 +1,29 @@
+
+.title {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.title > h1 {
+    font-size: 170px;
+    margin: 0;
+    // margin-left: 27%;
+    margin-top: 150px;
+}
+
+.title > h2 {
+    font-size: 72px;
+    margin: 0;
+    // margin-left: 41%;
+    margin-top: 41px;
+}
+
+.title > h3 {
+    font-size: 36px;
+    margin: 0;
+    // margin-left: 50%;
+    margin-top: 68px;
+}
